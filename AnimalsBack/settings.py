@@ -49,6 +49,8 @@ INSTALLED_APPS = [
 
     #Componentes creados
     'Animal',
+    'Register',
+    'Login'
 ]
 
 MIDDLEWARE = [
