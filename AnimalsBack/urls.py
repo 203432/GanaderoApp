@@ -11,7 +11,6 @@ from rest_framework.permissions import AllowAny
 # )
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('api/v1/animal/', include('Animal.urls')),
     path('api/v1/login/', include('Login.urls')),
     path('api/v1/register/', generics.CreateAPIView.as_view(
